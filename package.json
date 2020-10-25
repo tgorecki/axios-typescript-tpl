@@ -1,0 +1,21 @@
+{
+    "name": "axios-typescript-template",
+    "version": "1.0.0",
+    "description": "axios e6 ts",
+    "main": "./lib/index.js",
+    "scripts": {
+        "build": "NODE_ENV=production tsc --build ./tsconfig.json",
+        "test": "mocha ./test/api/*.test.js --timeout=300000"
+    },
+    "peerDependencies": {
+        "axios": "0.21.0"
+    },
+    "devDependencies": {
+        "axios": "0.21.0",
+        "chai": "4.2.0",
+        "mocha": "7.2.0",
+        "qs": "6.9.4",
+        "tslib": "2.0.2",
+        "typescript": "4.0.3"
+    }
+}
